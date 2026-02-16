@@ -3,7 +3,7 @@ name: bohaocatan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 1/6 * * *'
+    - cron: '47 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: bohaocatan
         env:
-          i00: ${{ secrets.i00 }}
+          zdn6: ${{ secrets.zdn6 }}
         run: |
-          echo $i00 | jq -r .yzhh70 | /bin/bash
-          echo $awb6 | jq -r .xjlcm718 | /bin/bash
-          echo $akh2 | jq -r .eoqr5583 | /bin/bash
-          echo $xfw0884 | jq -r .x75 | /bin/bash
+          echo $zdn6 | jq -r .ta5 | /bin/bash
+          echo $f99 | jq -r .x58891 | /bin/bash
+          echo $n426 | jq -r .w4 | /bin/bash
+          echo $alfr4 | jq -r .boz0 | /bin/bash
+          echo $e561 | jq -r .pa9945 | /bin/bash
+          echo $dow92658 | jq -r .bhyrq1348 | /bin/bash
 
